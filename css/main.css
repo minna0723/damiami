@@ -1,0 +1,343 @@
+/* MAIN */
+.slider img{
+    width: 100%;
+}
+.slide-content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.slide-content h2{
+    font-size: 26px;
+}
+.slide-content a{
+    margin-top: 32px;
+}
+.bx-wrapper{
+    position: relative;
+    margin-bottom: 30px;
+}
+.bx-viewport{
+    padding-bottom: 20px;
+}
+.bx-controls{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+.bx-controls .bx-pager{
+    display: flex;
+}
+.bx-controls .bx-pager .bx-pager-item a{
+    display: block;
+    text-indent: -9999em;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fff;
+    border: 1px solid #bbb1a5;
+    margin: 0 5px;
+}
+.bx-controls .bx-pager .bx-pager-item .active{
+    background: #bbb1a5;
+}
+
+.musthave-item{
+    margin-bottom: 20px;
+}
+.musthave-item > h2{
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.item-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+.item-list li{
+    text-align: center;
+    margin-bottom: 10px;
+    width: 50%;
+}
+.item-list li img{
+    width: 100%;
+}
+.item-list li h2{
+    font-size: 20px;
+    font-weight: 600;   
+}
+
+.specialgift{
+    text-align: center;
+}
+.specialgift img{
+    width: 100%;
+}
+.specialgift h2{
+    font-size: 26px;
+    margin: 20px 0;
+}
+
+/* CAtEGORIES */
+.categories-banner{
+    position: relative;
+    margin-bottom: 20px;
+}
+.categories-banner > img{
+    width: 100%;
+}
+.categories-banner > div{
+    position: absolute;
+    bottom: 20px;
+}
+.categories-banner > div h2{
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.categories-banner > div span{
+    font-size: 12px;
+}
+.filter-component{
+    display: flex;
+    justify-content: space-between;
+}
+.filter-component > button{
+    width: 50%;
+}
+.filter-component > button:first-child{
+    margin-right: 21px;
+} 
+
+/* PRODUCT_DETAILS */
+.item-details > img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.item-details > span{
+    font-size: 12px;
+    display: block;
+    margin-bottom: 10px;
+}
+.item-details > h2{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+.item-details > p{
+    text-align: center;
+}
+.item-details > .price{
+    padding-bottom: 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.item-details > .price::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    border-bottom: 1px solid #4C3D36;
+    opacity: 30%;
+}
+.size-box{
+    margin-bottom: 20px;
+}
+.size-box h3{
+    font-size: 20px;
+}
+#selectable{
+    display: flex;
+    position: relative;
+}
+#selectable li{
+    margin-right: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+#selectable .ui-selected{
+    font-weight: 600;
+    background: linear-gradient(180deg,#fff 95%, #000 5%);
+}
+.buy-btn-wrapper{
+    margin-bottom: 20px;
+}
+.buy-btn-wrapper > a:first-child{
+    margin-bottom: 10px;
+}
+.item-info{
+    margin-bottom: 40px;
+}
+.item-info > h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.item-info > p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.recommend-item > h2{
+    text-align: center;
+    font-size: 26px;
+}
+
+/* LOGIN */
+.login-wrapper{
+    margin-top: 20px;
+}
+.login-wrapper > h2{
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login-wrapper > p{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login-wrapper form > button{
+    margin-bottom: 20px;
+}
+.login-wrapper form > p{
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.login-wrapper form > p::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    border-bottom: 1px solid #4C3D36;
+    opacity: 30%;
+}
+.Account{
+    text-align: center;
+}
+.Account > h2{
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.Account > p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* JOIN */
+.join-wrapper{
+    margin-top: 20px;
+    text-align: center;
+}
+.join-wrapper > h2{
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.join-wrapper > p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.login-box{
+    margin-top: 40px;
+    background: #F8F5EE;
+}
+.login-box > div{
+    padding:20px;
+}
+.login-box > div h2{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.login-box > div p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* CART */
+.cart-wrapper{
+    margin-top: 20px;
+}
+.cart-wrapper > h2{
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.cart-list{
+    margin-bottom: 20px;
+
+}
+.cart-list li{
+    background: #F8F5EE;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.cart-list li img{
+    width: 29%;
+}
+.cart-list li .list-info{
+    padding-left: 20px;
+}
+.cart-list li .list-info > h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.list-info .option{
+    margin-top: 10px;
+}
+.item-option:first-child{
+    margin-bottom: 10px;
+}
+.item-option {
+    display: flex;
+    justify-content: space-between;
+}
+.item-option select,
+.item-option input[type="number"]{
+    background: transparent;
+    width: 80px;
+    height: 25px;
+    border: 1px solid ;
+    padding: 0 10px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.cart-list li span{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.total-check{
+    position: relative;
+    font-size: 16px;
+    line-height: 27px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.total-check::before{
+    position: absolute;
+    content: '';
+    border-top: 1px solid #424242;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.total-check::after{
+    position: absolute;
+    content: '';
+    border-top: 1px solid #424242;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
