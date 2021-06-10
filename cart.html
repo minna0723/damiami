@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Cart - DAMIANI</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <button class="menu_toggle">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+            </button>
+            <h1 class="logo"><a href="index.html">DAMIANI</a></h1>
+            <ul class="top-menu">
+                <li><a href="cart.html"><i class="fas fa-shopping-bag"></i></a></li>
+                <li><a href=""><i class="fas fa-search search-icon"></i></a>
+                    <ul class="search-form">
+                        <li>
+                            <label for="search"></label>
+                            <input type="text" id="search" placeholder="damini.com에서 검색" required>
+                            <button><i class="fas fa-chevron-right"></i></button>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <aside>
+        <ul class="aside-category container">
+            <li>하이주얼리<i class="fas fa-chevron-right"></i>
+                <ul class="category-li">
+                    <li><a href="">Animalia</a></li>
+                    <li><a href="">Belle Epoque</a></li>
+                    <li><a href="">Eden</a></li>
+                    <li><a href="">Emozioni</a></li>
+                    <li><a href="">Fiori d'Arancio</a></li>
+                    <li><a href="">Margherita</a></li>
+                    <li><a href="">Mimosa</a></li>
+                    <li><a href="">Notte di San Lorenzo</a></li>
+                    <li><a href="">Peacock</a></li>
+                    <li><a href="">Sophia Loren</a></li>
+                    <li><a href="">Vulcania</a></li>
+                </ul>
+            </li>
+            <li>주얼리<i class="fas fa-chevron-right"></i>
+                <ul class="category-li">
+                    <li><a href="categories.html">링</a></li>
+                    <li><a href="">브레이슬릿</a></li>
+                    <li><a href="">네크리스</a></li>
+                    <li><a href="">웨딩 밴드</a></li>
+                    <li><a href="">이어링</a></li>
+                    <li><a href="">솔리테어 링</a></li>
+                    <li><a href="">커프 링크스</a></li>
+                    <li><a href="">남성용 주얼리</a></li>
+                    <li><a href="">Cover Watch</a></li>
+                </ul>
+            </li>
+            <li>웨딩<i class="fas fa-chevron-right"></i>
+                <ul class="category-li">
+                    <li><a href="">인게이지먼트</a></li>
+                    <li><a href="">웨딩</a></li>
+                    <li><a href="">기념일</a></li>
+                </ul>
+            </li>
+            <li>기프트<i class="fas fa-chevron-right"></i>
+                <ul class="category-li">
+                    <li><a href="">아버지의 날</a></li>
+                    <li><a href="">어머니의 날</a></li>
+                    <li><a href="">인게이지먼트</a></li>
+                    <li><a href="">웨딩</a></li>
+                    <li><a href="">기념일</a></li>
+                    <li><a href="">생일</a></li>
+                    <li><a href="">졸업</a></li>
+                    <li><a href="">데일리</a></li>
+                </ul>
+            </li>
+            <li>메종 다미아니<i class="fas fa-chevron-right"></i>
+                <ul class="category-li">
+                    <li><a href="">회사소개</a></li>
+                    <li><a href="">장인정신</a></li>
+                    <li><a href="">다이아몬드</a></li>
+                    <li><a href="">헤리티지</a></li>
+                    <li><a href="">인터내셔널 어워드</a></li>
+                    <li><a href="">메종 95주년</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="aside-service container">
+            <li><a href="login.html"><i class="fas fa-user"></i> 내 계정</a></li>
+            <li><a href=""><i class="fas fa-map-marker-alt"></i> 매장 검색</a></li>
+        </ul>
+    </aside>
+    <main>
+        <div class="cart-wrapper container">
+            <h2>쇼핑백</h2>
+            <ul class="cart-list">
+                <li>
+                    <img src="images/must_item01.jpg" alt="Bell Epoque">
+                    <div class="list-info">
+                        <h3>Bell Epoque</h3>
+                        <h4 class="unit-price">6,750,000₩</h4>
+                        <div class="option">
+                            <div class="item-option">
+                                <label for="necklace-size">사이즈</label>
+                                <select name="necklace-size" id="necklace-size">
+                                    <option value="50">50</option>
+                                </select>
+                            </div>
+                            <div class="item-option">
+                                <label for="quantity">수량</label>
+                                <input type="number" name="quantity" min="1" value="1">
+                            </div>
+                        </div>
+                    </div>
+                    <span><i class="far fa-times-circle"></i></span>
+                </li>
+                <li>
+                    <img src="images/ring01.png" alt="Bell Epoque">
+                    <div class="list-info">
+                        <h3>Bell Epoque</h3>
+                        <h4 class="unit-price">10,490,000₩</h4>
+                        <div class="option">
+                            <div class="item-option">
+                                <label for="ring-size">사이즈</label>
+                                <select name="ring-size" id="ring-size">
+                                    <option value="48">48</option>
+                                    <option value="50">50</option>
+                                    <option value="52">52</option>
+                                    <option value="54">54</option>
+                                    <option value="56">56</option>
+                                    <option value="58">58</option>
+                                </select>
+                            </div>
+                            <div class="item-option">
+                                <label for="quantity">수량</label>
+                                <input type="number" name="quantity" min="1" value="1">
+                            </div>
+                        </div>
+                    </div>
+                    <span><i class="far fa-times-circle"></i></span>
+                </li>
+            </ul>
+            <div class="total-check">
+                <h5>상품가격 : <span class="product-price">17,240,000₩</span><br>
+                    배송비 : <span class="delivery-price">3,000₩</span><br>
+                    총 결제금액 : <span class="total-price">17,243,000₩</span></h5>
+            </div>
+            <button type="submit" class="long-btn">구입하기</button>
+        </div>
+    </main>
+    <footer>
+        <div id="footer-accordion" class="container footer-accordion">
+            <div class="footer-ul">
+                <h2>도와드릴까요?</h2>
+                <button class="menu_toggle">
+                    <i class="fas fa-plus"></i>
+                    <i class="fas fa-minus"></i>
+                </button>
+            </div>
+            <div class="footer-li">
+                <h3><a href="">전화 문의</a></h3>
+                <h3><a href="">고객 서비스팀과 채팅 상담</a></h3>
+                <h3><a href="">이메일 보내기</a></h3>
+                <h3><a href="">매장찾기</a></h3>
+            </div>
+            <div class="footer-ul">
+                <h2>법적 조기 및 이용약관</h2>
+                <button class="menu_toggle">
+                    <i class="fas fa-plus"></i>
+                    <i class="fas fa-minus"></i>
+                </button>
+            </div>
+            <div class="footer-li">
+                <h3><a href="">법적 고지사항</a></h3>
+                <h3><a href="">개인정보 보호 정책</a></h3>
+            </div>
+            <div class="footer-ul">
+                <h2>뉴스레터 구독</h2>
+                <button class="menu_toggle">
+                    <i class="fas fa-plus"></i>
+                    <i class="fas fa-minus"></i>
+                </button>
+            </div>
+            <div class="footer-li">
+                <p>Damiani 세계에 대한 모든것을 들려드립니다.</p>
+                <div class="newsletter">
+                    <label for="newsletteremail"></label>
+                    <input type="email" id="newsletteremail" placeholder="Esempio@dominio.it" required><br>
+                    <button class="newsletter-btn">구독하기</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-sns container">
+            <ul>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-pinterest-p"></i></a></li>
+                <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href=""><i class="fab fa-weibo"></i></a></li>
+                <li><a href=""><i class="fab fa-weixin"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-content">
+            <p class="container">&copy; DAMIANI S.P.A. 등록 사무실: PIAZZA DAMIANO GRASSI DAMIANI, N.1 - 15048 VALENCE <br>
+                개인 세금번호(C.F.) 및 등록 번호: 01457570065 알렉산드리아 회사등기부 등록.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
